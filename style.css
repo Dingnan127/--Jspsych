@@ -1,0 +1,36 @@
+p {
+  color: white;    /* 字体颜色 */
+  font-family:Arial, Helvetica, sans-serif;  /* 字体 */
+  font-size: 23px;   /* 字号 */
+  text-align: center;  /* 居中 */
+  line-height: 1.5;  /* 行间距 */
+  }
+
+/* 确保 body 和 html 高度为 100% */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* 防止内容溢出 */
+}
+
+/* 设置试验容器为全屏 */
+.jspsych-content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* 视口高度 */
+}
+
+/* 图片样式 */
+.jspsych-trial {
+  max-width: 100%; /* 最大宽度为100%，根据父容器宽度缩放 */
+  max-height: 100%; /* 最大高度为100%，根据父容器高度缩放 */
+  object-fit: contain; /* 保持图片比例 */
+}
+div {
+  background-color: black;   /* 背景颜色 */
+  display: block, width 80vw, height 80vh;
+
+}
